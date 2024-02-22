@@ -1,21 +1,30 @@
 import logo from './logo.svg';
 import './App.css';
+import Profile from './components/functional-components/jsx/jsx';
 
-import Buttoncomponent from './components/functional-components/button/button-component';
-import Orderlist from './components/functional-components/list/order-list/order-list';
-import Unorderlist from './components/functional-components/list/unorder-list/unorder-list';
+// import Buttoncomponent from './components/functional-components/button/button-component';
+// import Orderlist from './components/functional-components/list/order-list/order-list';
+// import Unorderlist from './components/functional-components/list/unorder-list/unorder-list';
 
-import Table from './components/functional-components/images/images';
+// import Table from './components/functional-components/images/images';
 
 function App() {
   return (
-    <div> <h1>shirisha</h1>
+     <div> 
+      {/* <h1>shirisha</h1>
 
 <Buttoncomponent></Buttoncomponent>
-{/* <Buttoncomponent></Buttoncomponent> */}
-    <Orderlist></Orderlist>
-<Unorderlist></Unorderlist>
-<Table></Table>
+ <Buttoncomponent></Buttoncomponent> 
+   <Orderlist></Orderlist>
+ <Unorderlist></Unorderlist>
+<Table></Table> */}
+<Profile></Profile>
+
+
+
+
+
+
 
 
     </div>
