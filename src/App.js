@@ -1,10 +1,13 @@
 // import logo from './logo.svg';
 // import './App.css';
 
-import Carousel1 from "./components/functional-components/courosel/courosel";
+import Products from "./components/functional-components/apiui/api";
 
-import Navbar1 from "./components/functional-components/navbar/navbar";
-import Toast1 from "./components/functional-components/toast/toast";
+
+// import Carousel1 from "./components/functional-components/courosel/courosel";
+
+// import Navbar1 from "./components/functional-components/navbar/navbar";
+// import Toast1 from "./components/functional-components/toast/toast";
 
 
 
@@ -16,9 +19,11 @@ function App() {
       
 {/* <Bootstrap12></Bootstrap12> */}
 {/* <Spinner></Spinner> */}
-<Navbar1></Navbar1>
+{/* <Navbar1></Navbar1>
 < Carousel1></Carousel1>
-<Toast1></Toast1>
+<Toast1></Toast1> */}
+<Products></Products>
+
     </div>
       
     
