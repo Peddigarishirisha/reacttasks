@@ -1,7 +1,10 @@
 // import logo from './logo.svg';
 // import './App.css';
 
-import Products from "./components/functional-components/apiui/api";
+// import Products from "./components/functional-components/apiui/api";
+// import Products from "./components/functional-components/classbased/classbased";
+import Productinfo from "./components/functional-components/classbased/classbased";
+import ImageComponent from "./components/functional-components/classbased/classbased";
 
 
 // import Carousel1 from "./components/functional-components/courosel/courosel";
@@ -22,7 +25,10 @@ function App() {
 {/* <Navbar1></Navbar1>
 < Carousel1></Carousel1>
 <Toast1></Toast1> */}
-<Products></Products>
+{/* <Products></Products> */}
+{/* <ImageComponent></ImageComponent> */}
+{/* <Products></Products> */}
+<Productinfo></Productinfo>
 
     </div>
       
