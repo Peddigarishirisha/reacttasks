@@ -43,7 +43,7 @@ fetch("https://fakestoreapi.com/products")
 export default Productaxios;
 
 
-
+//dheraj code 
 // class Axios12 extends Component{
 
 // //const async fetchdata=()=>{
