@@ -4,6 +4,7 @@ import About from "../pages/about";
 import Settings from "../pages/settings";
 import Invalid from "../pages/invalid";
 import Profile from "../pages/profile";
+import Productdetail from "../pages/productdetail";
 
 
 
@@ -21,7 +22,7 @@ const Postroute=()=>{
         <Route path="/Settings" Component={Settings}/>
         <Route path="/Profile" Component={Profile}/>
         <Route path="*" Component={Invalid}/>
-
+        <Route path="/:categary/:id" Component={Productdetail}/>
 
 
         {/* </Route> */}
