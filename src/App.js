@@ -8,7 +8,9 @@
 
 // import UsersList1 from "./components/functional-components/axios/axios";
 
-import Productaxios from "./components/functional-components/axios/axios";
+// import Productaxios from "./components/functional-components/axios/axios";
+import Control from "./components/functional-components/control/control";
+import Uncontrol from "./components/functional-components/uncrolledcomponents/uncontrol";
 
 
 
@@ -17,9 +19,9 @@ function App() {
      <div> 
       
 {/* <Productmultiplication></Productmultiplication> */}
-
-
-<Productaxios></Productaxios>``
+<Control></Control>
+{/* <Uncontrol></Uncontrol> */}
+{/* <Productaxios></Productaxios>`` */}
 {/* <UsersList1></UsersList1> */}
 
 {/* <Navigationinfo></Navigationinfo> */}
